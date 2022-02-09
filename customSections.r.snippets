@@ -1,0 +1,3 @@
+# Creates a custom section label with leading edge and truncated to a specified length
+snippet sect-
+	`r strtrim(paste("#====",parse(text = "$$"),strrep("=",150)),120)`
