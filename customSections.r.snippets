@@ -1,3 +1,10 @@
 # Creates a custom section label with leading edge and truncated to a specified length
 snippet sect-
 	`r strtrim(paste("#====",parse(text = "$$"),strrep("=",150)),120)`
+
+# Custom seperation labels
+snippet IV
+	#---- Input validation ---------------------------------------------------${1}
+	
+snippet FC
+	#---- Function code ------------------------------------------------------${1}
